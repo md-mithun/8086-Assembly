@@ -1,0 +1,11 @@
+;Compare Instruction
+
+MOV AX, 1233H
+MOV BX, 1210H
+CMP AX,BX
+JG LABEL
+MOV CX,BX
+HLT
+LABEL:
+    MOV CX,AX
+    HLT
