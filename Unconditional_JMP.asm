@@ -1,0 +1,8 @@
+MOV AX, 1234H 
+MOV BX, 4567H
+JMP ABC ; ABC are Label
+MOV CX,1122H   
+
+ABC:INC AX  
+    INC BX
+HLT
